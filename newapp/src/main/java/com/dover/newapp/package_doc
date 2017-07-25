@@ -1,0 +1,46 @@
+
+base
+——Application Activity Fragment Presenter等的顶级父类
+所有Activity继承BaseActivity
+所有Fragment继承BaseFragment
+所有Presenter继承BasePresenter
+
+
+config
+——API,常量表等
+
+Constants --- 作为常量类 在APP各处调用  (内部实现各模块常量接口即可)
+AppConstants ---各模块的常量,定义在接口中
+例如: public class Constants implements AppConstants
+
+
+model
+——数据层
+    entities——数据模型
+
+
+module——将界面层以功能模块分配包。
+launch
+main
+account
+news
+music
+……
+
+
+presenter
+——MVP的P
+
+
+service——服务
+
+
+ui——MVP的V
+
+
+utils——工具类集合
+
+
+widget——各个可复用View集合
+
+

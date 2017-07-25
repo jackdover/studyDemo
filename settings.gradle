@@ -1,1 +1,1 @@
-include ':app', ':BaseImageLoader'
+include ':app', ':BaseImageLoader', ':newapp', ':gesturelockview'
