@@ -3,4 +3,18 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- 通用 -->
+    <color name="white">#FFFFFF</color>
+
+    <!-- 提示小图标 -->
+    <color name="tip_normal">#A5A5A5</color>
+    <color name="tip_pressed">#0F8EE8</color>
+
+    <!-- 绘制大图标 -->
+    <color name="lock_normal">#0F8EE8</color>
+    <color name="lock_pressed">#2177C7</color>
+    <color name="lock_error">#FF0000</color>
+
+
 </resources>

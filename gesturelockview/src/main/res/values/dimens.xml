@@ -2,4 +2,16 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- 提示小图标 -->
+    <!--圆环宽度-->
+    <dimen name="tip_normal_stroke_width">1dp</dimen>
+    <!--圆直径-->
+    <dimen name="tip_pressed_circle_diameter">10dp</dimen>
+
+
+    <!-- 绘制大图标 -->
+
+
 </resources>
