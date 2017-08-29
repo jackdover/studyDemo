@@ -306,7 +306,7 @@ public class LockViewGroup extends RelativeLayout {
                 reset();
                 // 保存答案
                 mFirstAnswer = new int[mChoose.size()];
-                for (int i = 0; i < mChoose.size() - 1; i++) {
+                for (int i = 0; i < mChoose.size(); i++) {
                     mFirstAnswer[i] = mChoose.get(i);
                 }
                 // 执行保存回调
