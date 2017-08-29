@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/gesturelockview/gesturelockview.iml" filepath="$PROJECT_DIR$/gesturelockview/gesturelockview.iml" />
       <module fileurl="file://$PROJECT_DIR$/newapp/newapp.iml" filepath="$PROJECT_DIR$/newapp/newapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signanimview/signanimview.iml" filepath="$PROJECT_DIR$/signanimview/signanimview.iml" />
       <module fileurl="file://$PROJECT_DIR$/studyDemo.iml" filepath="$PROJECT_DIR$/studyDemo.iml" />
     </modules>
   </component>
