@@ -1,5 +1,6 @@
 package com.dover.rxdemo;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -65,6 +66,19 @@ public class SplashActivity extends AppCompatActivity {
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, mList);
         lv.setAdapter(adapter);
 
+
+
+
+        //其他跳转
+//        startActivity(new Intent(this,OperatActivity.class));//操作符相关
+
+        startActivity(new Intent(this,RetrofitActivity.class));//网络使用
+
+        startActivity(new Intent(this,RxSampleActivity.class));//实战
+
+
+
+
         mRxApi = RxApiImp.getRxApi();
 
 //        rxdemo1();    //基础示范
@@ -82,8 +96,10 @@ public class SplashActivity extends AppCompatActivity {
 //        rxdemo8();      //参考解决 背压1,OOM ---只使用Observable如何去解决上下游流速不均衡的问题
 
 //        rxdemo9();  // Flowable
-//        rxdemo10();  // Flowable 填坑
-        rxdemo11();  // Flowable 响应式拉取完整实现  ---实战之  大文本边读取边处理
+//        rxdemo10();  // Flowable 填坑 ---
+        //下游 调用 mSubscription.request(n) 通知上游自己的处理能力
+        //上游 调用 mFlowableEmitter.requested 就可以获取下游的处理能力
+//        rxdemo11();  // Flowable 响应式拉取完整实现  ---实战之  大文本边读取边处理
     }
 
     Subscription mSubscription;
