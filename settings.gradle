@@ -1,1 +1,1 @@
-include ':app', ':BaseImageLoader', ':newapp', ':gesturelockview', ':signanimview', ':RxDemo', ':ALog', ':RxProject'
+include ':app', ':BaseImageLoader', ':newapp', ':gesturelockview', ':signanimview', ':RxDemo', ':ALog', ':RxProject', ':ViewPager'
