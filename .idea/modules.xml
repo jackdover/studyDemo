@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ALog/ALog.iml" filepath="$PROJECT_DIR$/ALog/ALog.iml" />
       <module fileurl="file://$PROJECT_DIR$/BaseImageLoader/BaseImageLoader.iml" filepath="$PROJECT_DIR$/BaseImageLoader/BaseImageLoader.iml" />
       <module fileurl="file://$PROJECT_DIR$/RxDemo/RxDemo.iml" filepath="$PROJECT_DIR$/RxDemo/RxDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RxProject/RxProject.iml" filepath="$PROJECT_DIR$/RxProject/RxProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/gesturelockview/gesturelockview.iml" filepath="$PROJECT_DIR$/gesturelockview/gesturelockview.iml" />
       <module fileurl="file://$PROJECT_DIR$/newapp/newapp.iml" filepath="$PROJECT_DIR$/newapp/newapp.iml" />
