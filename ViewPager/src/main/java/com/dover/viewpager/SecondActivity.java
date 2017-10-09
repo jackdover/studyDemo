@@ -54,6 +54,7 @@ public class SecondActivity extends AppCompatActivity {
 
         viewPager.setCurrentItem(50 * 10000 - 50 % viewList.size());
 
+        //修改viewpager切换速度
 //        VpSpeedUtil.setSpeed(this, viewPager, 3000);
 
 //        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
